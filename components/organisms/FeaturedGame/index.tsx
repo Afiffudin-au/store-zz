@@ -31,7 +31,7 @@ function FeaturedGame() {
             />
           ))} */}
         </div>
-        <div className='row'>
+        <div className='row justify-content-center'>
           {gameList?.map((item: GameItemTypes, index: number) => (
             <GameItem
               key={item._id}
