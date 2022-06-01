@@ -88,27 +88,11 @@
   width: 205px;
   height: 270px;
 }
-
-.featured-game .featured-game-card:hover {
-  transition: all 0.4s;
-  border: 4px solid #2b2467;
-}
-
-.featured-game .featured-game-card:hover img.thumbnail {
-  transition: all 0.4s;
-  filter: blur(40px);
-  width: 181px;
-  height: 246px;
-}
-
 .featured-game .featured-game-card .blur-sharp {
   overflow: hidden;
   border-radius: 1.625rem;
 }
-.featured-game .featured-game-card:hover .blur-sharp {
-  width: 192px;
-  border: 7px solid white;
-}
+
 
 .featured-game .cover {
   transition: all 0.4s;
@@ -118,9 +102,6 @@
   height: -webkit-fill-available;
 }
 
-.featured-game .featured-game-card:hover .cover {
-  opacity: 1;
-}
 
 .featured-game .game-icon {
   margin-top: 3.125rem;
@@ -186,6 +167,7 @@ footer ul li a:hover {
 }
 
 @media (max-width: 768px) {
+
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -231,8 +213,27 @@ footer ul li a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  .featured-game .featured-game-card:hover {
+    transition: all 0.4s;
+    border: 4px solid #2b2467;
+  }
+  
+  .featured-game .featured-game-card:hover img.thumbnail {
+    transition: all 0.4s;
+    filter: blur(40px);
+    width: 181px;
+    height: 246px;
+  }
+  .featured-game .featured-game-card:hover .blur-sharp {
+    width: 192px;
+    border: 7px solid white;
+  }
+  .featured-game .featured-game-card:hover .cover {
+    opacity: 1;
+  }
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  
 }

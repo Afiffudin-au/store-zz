@@ -21,6 +21,17 @@ function FeaturedGame() {
         <div
           className='d-flex flex-row flex-lg-wrap overflow-setting justify-content-lg-between gap-lg-3 gap-4'
           data-aos='fade-up'>
+          {/* {gameList?.map((item: GameItemTypes, index: number) => (
+            <GameItem
+              key={item._id}
+              id={item._id}
+              title={item.name}
+              category={item.category.name}
+              thumbnail={item.thumbnail}
+            />
+          ))} */}
+        </div>
+        <div className='row'>
           {gameList?.map((item: GameItemTypes, index: number) => (
             <GameItem
               key={item._id}
