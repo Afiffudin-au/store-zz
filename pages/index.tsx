@@ -20,21 +20,28 @@ const Home: NextPage = () => {
         <title>StoreZZ - Topup & Get a New Experience in Gaming</title>
         <meta
           name='description'
-          content='Kami menyediakan jutaan cara untuk membantu
-players menjadi pemenang sejati'
+          content='We provide millions of ways to help'
         />
         {/* for media social meta */}
         <meta
           property='og:title'
           content='StoreZZ - Topup & Get a New Experience in Gaming'
         />
+        <meta property='og:description' content='players become real winners' />
         <meta
-          name='description:og'
-          content='Kami menyediakan jutaan cara untuk membantu
-players menjadi pemenang sejati'
+          property='og:image'
+          content='https://res.cloudinary.com/dblvavqbv/image/upload/v1655203956/portfolio-images/storezz_uxmjpf.png'
         />
-        <meta property='og:image' content='https://' />
         <meta property='og:url' content='https://storezz.tosulafiffudin.com' />
+        <meta property='og:type' content='website' />
+        <meta
+          property='og:site_name'
+          content='StoreZZ - Topup && We provide millions of ways to help
+          players become real winners'></meta>
+        <meta
+          name='google-site-verification'
+          content='Gy8DecfJhmdkMec5xQrsKKV6mriP35Ynkhxl1_eX3oU'
+        />
       </Head>
       <Navbar />
       <MainBanner />
